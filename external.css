@@ -30,8 +30,20 @@ img {
 @media (min-width: 600px) {
   .art {
     background-image: url(/images/gallery.jfif);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*round*/
     background-size: contain;
+    border: 5px solid;
+  }
+
+  #words {
+    order: 1;
+  }
+
+  img {
+    border: solid gold 5px;
+    margin: 3px;
+    /* max-width: 200rem; */
+    height: auto;
   }
 
   .form {
@@ -43,7 +55,8 @@ img {
   /* .page {
     background-color: red;
   } */
-  body {
-    background-color: pink;
+
+  img {
+    z-index: -1;
   }
 }
